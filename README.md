@@ -1,3 +1,3 @@
 # commands
 
-List of major commands of tools that I frequently use
+List of major commands that I frequently use
