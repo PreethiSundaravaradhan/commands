@@ -1,0 +1,20 @@
+To debug C/C++ files in commandline in mac I prefer lldb. gdb is cool, but has many issues and bugs in macosx (specific versions of Sierra) at the time of this writting.
+
+Quick commands:
+1. To start debugging: lldb <Object file>
+2. to add breakpoint: br s -f AVLTree.cpp -l 227
+(line#227)
+We can add multiple breakpoints
+
+3. to list variables: frame variable --no-args
+
+4. run - to run the code
+5. to continue to next breakpoint - continue
+6. go to next line step-by-step : next
+7. to remove  1st breakpoint: br del 1
+8. list breakpoints - br l
+
+
+LLDB tutorial: https://lldb.llvm.org/tutorial.html
+
+
